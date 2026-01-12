@@ -303,7 +303,7 @@ const App = () => {
                 >
                   Support
                 </a>
-                <a
+                {/* <a
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
@@ -312,7 +312,7 @@ const App = () => {
                   className="text-gray-700 hover:text-purple-600 transition-colors py-2"
                 >
                   About
-                </a>
+                </a> */}
               </nav>
             </div>
             <div className="flex items-center space-x-4">
