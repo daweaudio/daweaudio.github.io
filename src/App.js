@@ -214,7 +214,7 @@ const App = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg"></div>
+                <img src="/logo.png" alt="Dawe Audio Logo" className="w-8 h-8 rounded-lg object-cover" />
                 <span className="text-2xl font-bold text-gray-900">Dawe Audio</span>
               </div>
               <nav className="hidden md:ml-10 md:flex space-x-8">
@@ -697,7 +697,7 @@ const App = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg"></div>
+                <img src="/logo.png" alt="Dawe Audio Logo" className="w-8 h-8 rounded-lg object-cover" />
                 <span className="text-2xl font-bold">Dawe Audio</span>
               </div>
               <p className="text-gray-400">Professional music production plugin provider</p>
